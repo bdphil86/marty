@@ -1,0 +1,17 @@
+{
+  "globalDevDependencies": {
+    "browserify": "registry:dt/browserify#12.0.1+20160317120654",
+    "del": "registry:dt/del#2.2.0+20160317120654",
+    "gulp-babel": "registry:dt/gulp-babel#6.1.0+20160316171810",
+    "gulp-concat": "registry:dt/gulp-concat#0.0.0+20160316155526",
+    "gulp-sourcemaps": "registry:dt/gulp-sourcemaps#0.0.0+20160316155526",
+    "gulp-typescript": "registry:dt/gulp-typescript#0.0.0+20160317120654",
+    "rimraf": "registry:dt/rimraf#0.0.0+20160317120654",
+    "webpack": "registry:dt/webpack#1.12.9+20161025142220"
+  },
+  "globalDependencies": {
+    "jasmine": "registry:dt/jasmine#2.5.0+20161025102649",
+    "lodash": "registry:dt/lodash#4.14.0+20161110215204",
+    "typescript": "registry:dt/typescript#0.4.0+20160317120654"
+  }
+}

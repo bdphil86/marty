@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "compileOnSave": true,
+        "module": "amd",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outFile": "idhsm.js",
+        "sourceMap": true,
+        "typeRoots": ["./typings"]
+    },
+    "include": [
+        "**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.[Ss]pec.ts"
+    ]
+}
