@@ -42,7 +42,7 @@ Open the included index.html file in a browser, and look at the logged messages 
 The example is the same as the one below with logged messages to indicate what's happening.
 Here is an example of the output (NOTE: the output is random, so yours could look different):
 
-![alt tag](https://github.com/bdphil86/idhsm/blob/master/example_output.PNG)
+![alt tag](https://github.com/martyhsm/marty/blob/master/example_output.PNG)
 
 #### Including in browser
 ```html
@@ -52,7 +52,7 @@ Here is an example of the output (NOTE: the output is random, so yours could loo
 ### Creating an HSM
 In this example, we'll just make a state machine for an autonomous stoplight that is set to run for 60 seconds. It will iterate through red, yellow, and great lights. Randomly, a someone will crash into the stop light OR it will go off naturally. Here's a diagram:
 
-![alt tag](https://github.com/bdphil86/idhsm/blob/master/stoplight.png)
+![alt tag](https://github.com/martyhsm/marty/blob/master/stoplight.png)
 
 #### Create some events for your state machine.
 ```typescript
