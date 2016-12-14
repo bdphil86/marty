@@ -37,17 +37,15 @@ gulp test
 ```
 ***NOTE*: Test code is lacking at the moment, but feel free to add!**
 
+#### Including in browser
+```html<script src="~/dist/marty.js"></script>```
+
 #### Running example
 Open the included index.html file in a browser, and look at the logged messages in the console.
 The example is the same as the one below with logged messages to indicate what's happening.
 Here is an example of the output (NOTE: the output is random, so yours could look different):
 
 ![alt tag](https://github.com/martyhsm/marty/blob/master/example_output.PNG)
-
-#### Including in browser
-```html
-<script src="~/dist/marty.js"></script>
-```
 
 ### Creating an HSM
 In this example, we'll just make a state machine for an autonomous stoplight that is set to run for 60 seconds. It will iterate through red, yellow, and great lights. Randomly, a someone will crash into the stop light OR it will go off naturally. Here's a diagram:
