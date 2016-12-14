@@ -273,6 +273,7 @@ This project uses:
 - Gulp
 - Babel
 - Webpack
+
 ## Remaining Work
 Though this should be good to use, the following things still need to be done to improve the quality of this repo and source code:
 - Separate test code from production code
