@@ -3,6 +3,7 @@ This is an implementation of a hierarchical state machine (HSM) or a statechart 
 - instruction queuing
 - event payloads
 - "parallel" state machines
+
 ## New Terminology
 - **Emitted Events**: internal events that are sent to a state machine by one of its states to be handled; all other events are external and sent to a state machine by the user's code to be handled
 
@@ -13,6 +14,7 @@ This is an implementation of a hierarchical state machine (HSM) or a statechart 
 - **Instruction**: a directive that needs to be fulfilled by the state machine; currently, these are just events and transitions. generalizing them makes them easier to queue.
 
 - **Instruction Queue**: queues instructions so that fewer events are dropped in case of multiple threads
+
 ## Usage
 ### Updating the code in this repo
 If you plan to make changes to the code, then here are some steps to get your started in building and testing the code.
@@ -37,12 +39,14 @@ gulp test
 Open the included index.html file in a browser, and look at the logged messages in the console.
 The example is the same as the one below with logged messages to indicate what's happening.
 Here is an example of the output (NOTE: the output is random, so yours could look different):
+
 ![alt tag](https://github.com/martyhsm/marty/blob/master/example_output.PNG)
 
 ### Creating an HSM
 In this example, we'll just make a state machine for an autonomous stoplight that is set to run for 60 seconds. It will iterate through red, yellow, and great lights. Randomly, a someone will crash into the stop light OR it will go off naturally. Here's a diagram:
 
 ![alt tag](https://github.com/martyhsm/marty/blob/master/stoplight.png)
+
 #### Create some events for your state machine.
 ```typescript
 const TurnOn: number = 0;
