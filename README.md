@@ -18,36 +18,29 @@ This is an implementation of a hierarchical state machine (HSM) or a statechart 
 ## Usage
 ### Updating the code in this repo
 If you plan to make changes to the code, then here are some steps to get your started in building and testing the code.
-
 #### Installing
 ```shell
 npm install
 typings install
 ```
-
 #### Building
 ```shell
 gulp clean
 gulp
 ```
-
 #### Testing
 ```shell
 gulp test
 ```
 ***NOTE*: Test code is lacking at the moment, but feel free to add!**
-
+#### Including in browser
+```html<script src="~/dist/marty.js"></script>```
 #### Running example
 Open the included ./example/index.html file in a browser, open dev tools, and look at the logged messages in the console.
 The example is the same as the one below with logged messages to indicate what's happening.
 Here is an example of the output (NOTE: the output is random, so yours could look different):
 
 ![alt tag](https://github.com/martyhsm/marty/blob/master/example_output.PNG)
-
-#### Including in browser
-```html
-<script src="~/dist/marty.js"></script>
-```
 
 ### Creating an HSM
 In this example, we'll just make a state machine for an autonomous stoplight that is set to run for 60 seconds. It will iterate through red, yellow, and great lights. Randomly, a someone will crash into the stop light OR it will go off naturally. Here's a diagram:
@@ -63,7 +56,6 @@ const TurnGreen: number = 3;
 const TurnOff: number = 4;
 const Crash: number = 5;
 ```
-
 #### Create some states for your state machine.
 ```typescript
 class Top extends State {
@@ -232,7 +224,6 @@ class Off extends State {
 }
 
 ```
-
 #### Create and wire up your state machine.
 ```typescript
 class StoplightStateMachine extends StateMachine {
@@ -262,7 +253,6 @@ class StoplightStateMachine extends StateMachine {
     }
 }
 ```
-
 #### Use your state machine.
 ```typescript
 const stoplightStateMachine = new StoplightStateMachine();
@@ -276,7 +266,6 @@ setTimeout(() => {
     stoplightStateMachine.handle(Crash);
 }, Math.random() * (60000 - 30000) + 30000);
 ```
-
 ## Dependencies
 This project uses:
 - NPM
