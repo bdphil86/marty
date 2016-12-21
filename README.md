@@ -38,7 +38,7 @@ gulp test
 ***NOTE*: Test code is lacking at the moment, but feel free to add!**
 
 #### Running example
-Open the included index.html file in a browser, and look at the logged messages in the console.
+Open the included ./example/index.html file in a browser, open dev tools, and look at the logged messages in the console.
 The example is the same as the one below with logged messages to indicate what's happening.
 Here is an example of the output (NOTE: the output is random, so yours could look different):
 
