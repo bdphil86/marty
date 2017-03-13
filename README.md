@@ -33,8 +33,10 @@ gulp
 gulp test
 ```
 ***NOTE*: Test code is lacking at the moment, but feel free to add!**
+
 #### Including in browser
 ```html<script src="~/dist/marty.js"></script>```
+
 #### Running example
 Open the included ./example/index.html file in a browser, open dev tools, and look at the logged messages in the console.
 The example is the same as the one below with logged messages to indicate what's happening.

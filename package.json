@@ -1,5 +1,5 @@
 {
-  "name": "marty",
+  "name": "martyhsm",
   "version": "1.0.0",
   "description": "An implementation of a hierarchical state machine (HSM) or a statechart with a few new features.",
   "main": "index.js",
@@ -36,12 +36,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bdphil86/idhsm.git"
+    "url": "git+https://github.com/martyhsm/marty.git"
   },
   "author": "Brandon Phillips | brandon.phillips@live.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bdphil86/idhsm/issues"
+    "url": "https://github.com/martyhsm/marty/issues"
   },
-  "homepage": "https://github.com/bdphil86/idhsm#readme"
+  "homepage": "https://github.com/martyhsm/idhsm#readme"
 }
