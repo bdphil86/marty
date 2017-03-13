@@ -1,8 +1,8 @@
 {
-  "name": "Marty",
+  "name": "marty",
   "version": "1.0.0",
   "description": "An implementation of a hierarchical state machine (HSM) or a statechart with a few new features.",
-  "main": "marty.js",
+  "main": "index.js",
   "dependencies": {
     "babel-polyfill": "^6.16.0",
     "lodash": "^4.17.2",

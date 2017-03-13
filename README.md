@@ -43,7 +43,7 @@ Here is an example of the output (NOTE: the output is random, so yours could loo
 ![alt tag](https://github.com/martyhsm/marty/blob/master/example_output.PNG)
 
 ### Creating an HSM
-In this example, we'll just make a state machine for an autonomous stoplight that is set to run for 60 seconds. It will iterate through red, yellow, and great lights. Randomly, a someone will crash into the stop light OR it will go off naturally. Here's a diagram:
+In this example, we'll just make a state machine for an autonomous stoplight that is set to run for 60 seconds. It will iterate through red, yellow, and great lights. Randomly, someone will crash into the stop light OR it will go off naturally. Here's a diagram:
 
 ![alt tag](https://github.com/martyhsm/marty/blob/master/stoplight.png)
 
