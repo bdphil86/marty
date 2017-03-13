@@ -4,6 +4,7 @@
   "description": "An implementation of a hierarchical state machine (HSM) or a statechart with a few new features.",
   "main": "index.js",
   "dependencies": {
+    "@types/lodash": "^4.14.55",
     "babel-polyfill": "^6.16.0",
     "lodash": "^4.17.2",
     "typescript": "^2.1.1"
